@@ -1,4 +1,4 @@
-FROM mongo:5.0.26-focal
+FROM mongo:5.0.29-focal
 
 COPY --chown=mongodb:root --chmod=400 rootCA.pem /etc/ssl/rootCA.pem
 COPY --chown=mongodb:root --chmod=400 mongodb.pem /etc/ssl/mongodb.pem
